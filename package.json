@@ -1,0 +1,19 @@
+{
+  "name": "wdio-bidi-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "wdio": "npx wdio run ./wdio.conf.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^9.2.11",
+    "@wdio/local-runner": "^9.2.11",
+    "@wdio/mocha-framework": "^9.2.8",
+    "@wdio/sauce-service": "^9.2.11",
+    "puppeteer-core": "^22.15.0"
+  }
+}
